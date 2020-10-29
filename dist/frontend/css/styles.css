@@ -4,6 +4,15 @@
 	src: url(../fonts/Averta.otf);
 }
 
+@font-face {
+	font-family: AvertaBoldFont;
+	src: url(../fonts/Averta\ Bold.otf);
+}
+
+* {
+	font-family: AvertaFont;
+}
+
 .nav-center {
 	text-align: center;
 }
