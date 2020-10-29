@@ -2011,6 +2011,7 @@ body .daterangepicker .tooltip .tooltip-inner {
 	overflow: hidden;
 	height: 170px;
 	background: #ccc;
+	position: relative;
 }
 
 .bravo_wrap .page-template-content .bravo-list-tour .item-tour .thumb-image a img {
@@ -2507,7 +2508,10 @@ body .daterangepicker .tooltip .tooltip-inner {
 .bravo_wrap .bravo-list-hotel .list-item .item-loop:hover {
 	border-color: #6cbe46 !important;
 }
-
+.bravo_wrap .bravo-list-hotel .list-item .item-loop:hover button.book-now{
+	background-color: #6cbe46;
+	color: white;
+}
 .bravo_wrap .page-template-content .bravo-form-search-tour {
 	padding: 120px 0;
 	background-position: center !important;
@@ -4774,7 +4778,7 @@ body .daterangepicker .tooltip .tooltip-inner {
 }
 
 .bravo_wrap .page-template-content .bravo-list-news .caption .title {
-	font-size: 20px;
+	font-size: 16px;
 }
 
 @media (max-width: 766px) {
@@ -4805,30 +4809,50 @@ body .daterangepicker .tooltip .tooltip-inner {
 	overflow: hidden;
 	height: 170px;
 	background: #ccc;
+	position: relative;
 }
-
+.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image .title{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	margin-bottom: 8px;
+	transition: all 0.6s ease;
+}
+.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image .title a{
+	color: white;
+	font-size: 24px;
+}
 .bravo_wrap .page-template-content .bravo-list-news .item-news .description {
 	position: absolute;
 	bottom: 30px;
 	left: 30px;
 	right: 30px;
 	opacity: 0;
+	transition: all 0.5s ease-in;
+}
+.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image:hover .title{
+	top: 40%;
+
+}
+.bravo-list-news {
+    margin-bottom: 3rem;
 }
 
-.bravo_wrap .page-template-content .bravo-list-news .item-news .caption .title:after {
-	content: "";
-	height: 2px;
-	width: 50px;
-	background: #6cbe46;
-	display: block;
-	margin: auto;
-	margin-top: 15px;
-	transition: all 0.3s;
+.bravo-list-locations.event-organization.style_4 {
+    margin-bottom: 70px !important;
+}
+.event-organization .thumb-image{
+	border-radius: 8px;
 }
 
 .bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image a img {
-	transition: all 0.3s;
+	transition: all .3s;
 	max-width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
 }
 
 .bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image a:hover img {
@@ -5435,6 +5459,71 @@ body .daterangepicker .tooltip .tooltip-inner {
 	position: relative;
 }
 
+.tour-content{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.tour-content_title {
+    margin-left: 16px;
+    margin-top: 26px;
+}
+.tour-content_title p{
+	padding: 0 !important;
+	margin: 0;
+	
+}
+.tour-content_title p.tour-content_title_address{
+	font-size: 16px;
+	color: #b5b5b5;
+	margin-bottom: 4px;
+}
+.tour-content_title p.tour-content_title_schedule{
+	font-size: 18px;
+	font-weight: bold;
+	color: #282828;
+}
+.sale-circle{
+	position: absolute;
+	z-index: 99;
+	border-radius: 50%;
+	padding: 10px 3px;
+	background-color: #ffba00;
+	font-size: 10px;
+	top: -22px;
+	right: 1rem;
+}
+.sale-circle span{
+	font-size: 13px;
+	color: white;
+}
+.infor_tour{
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 16px;
+	align-items: center;
+}
+.infor_tour .onsale{
+	font-size: 14px;
+	color: #b5b5b5;
+	text-decoration: line-through;
+}
+.infor_tour .text-price{
+	color: #ff0000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.infor_tour .book-now{
+	background-color: #ffffff;
+	color: #6cbe46;
+	outline: none;
+	border: 1px solid #6cbe46;
+	padding: 0px 14px;
+	border-radius: 5px;
+	font-size: 14px;
+	height: 40px;
+	transition: all 0.8s ease;
+}
 .bravo_wrap .bravo-list-hotel .item-loop .thumb-image:hover a img {
 	transform: scale(1.1);
 }
@@ -7741,17 +7830,17 @@ ol {
 
 .bravo-pagination ul li a.current,
 .bravo-pagination ul li span.current {
-	border: 1px solid #6cbe46 !important ;
+	border: 1px solid #6cbe46 !important;
 	border-radius: 3px;
-	background: 0 0 !important;
+	background: 0 0!important;
 	color: #6cbe46 !important;
 }
 
 .bravo-pagination ul li.active a,
 .bravo-pagination ul li.active span {
-	border: 1px solid #6cbe46 !important ;
-	background: 0 0 !important;
-	color: #6cbe46 !important ;
+	border: 1px solid #6cbe46 !important;
+	background: 0 0!important;
+	color: #6cbe46 !important;
 }
 
 .bravo-pagination .count-string {
