@@ -7674,3 +7674,133 @@ ol {
 	background: #000;
 	opacity: .5
 }
+
+
+/* css cho phần KINH NGHIỆM DU LỊCH */
+/* created by tuanva 29/10/2020 */
+@media only screen and (min-width : 1920px){
+	.container {
+		max-width: 1200px !important;
+	}
+	.bravo_wrap .bravo_topbar .content .topbar-left {
+		margin-top: 5px;
+	}
+	.bravo_wrap .bravo_topbar .content .socials a{
+		padding-right: 13px;
+	}
+	.bravo_wrap .bravo_topbar .content .socials a span{
+		margin-left: 8px;
+		font-size: 14px;
+	}
+	.bravo_wrap .bravo_topbar .content .topbar-right .topbar-items li a{
+		font-size: 14px;
+		margin-left: -9px;
+	}
+	.bravo_wrap .bravo_topbar{
+		background: #f5f5f5;
+    	padding: 14px 0;
+	}
+	.bravo_wrap .bravo_header{
+		background: #ffffff;
+    	height: 86px;
+	}
+	.bravo_wrap .bravo_header .content .header-left{
+		width: 100%;
+	}
+	.bravo_wrap .bravo_header .content .header-left a{
+		margin-top: 3px;
+	}
+	.bravo_wrap .bravo_header .content .header-left .bravo-menu {
+		padding-left: 110px;
+		width: 100%;
+	}
+	.bravo_wrap .bravo_header .content .header-left .bravo-menu ul{
+		list-style: none;
+    	margin-left: 84px;
+	}
+	.bravo_wrap .bravo_header .content .header-left .bravo-menu ul li a{
+		padding: 34px 14px;
+	}
+	.bravo_wrap .page-template-content .bravo-form-search-all {
+		padding: 82px 0px;
+	}
+	.bravo_wrap .page-template-content .bravo-form-search-all .text-heading{
+		margin-top: 39px;
+	}
+	.bravo_wrap .page-template-content .bravo-form-search-all .g-form-control .nav-tabs{
+		margin-top: 56px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer{
+		margin: 59px 0px 0px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer .item .featured-icon i {
+		top: 13px;
+		margin-left: 10px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer .item .item-title{
+		font-size: 22px;
+		margin-left: 12px;
+		margin-top: 57px;
+		margin-bottom: 0px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer .item .item-title2{
+		color: #fff;
+		font-weight: 500;
+		font-size: 34px;
+		margin-bottom: 13px;
+		transition: all .4s;
+		text-transform: uppercase;
+		margin-left: 12px;
+	}
+	
+	.bravo_wrap .page-template-content .bravo-offer .item .item-title3{
+		color: #fff;
+		font-size: 22px;
+		margin-left: 12px;
+		margin-top: 36px;
+		margin-bottom: 0px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer .item .item-title4{
+		color: #fff;
+		font-weight: 500;
+		font-size: 34px;
+		margin-bottom: 13px;
+		transition: all .4s;
+		text-transform: uppercase;
+		margin-left: 12px;
+	}
+	.bravo_wrap .page-template-content .bravo-offer .item .item-sub-title{
+		margin-left: 14px;
+		margin-top: 14px;
+	}
+	.bravo_wrap .bravo-list-hotel .title{
+		margin-top: 81px;
+		font-size: 35px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.nav-center .nav-tabs li a{
+		margin-right: 4px;
+		margin-left: 32px;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	.nav-center ul.nav{
+		margin-top: -64px;
+	}
+	.bravo_wrap .page-template-content .bravo-list-news .title {
+	font-size: 36px;
+    margin-bottom: 37px;
+    padding-top: 12px;
+    margin-left: 11px;
+	}
+	.thumb-image{
+		padding-bottom: 68%;
+	}
+	.nav-center .tab-content{
+		margin-top: 14px
+	}
+	.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image {
+		height: 271px;
+	}
+}
