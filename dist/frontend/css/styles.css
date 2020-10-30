@@ -2835,11 +2835,6 @@ body .daterangepicker .tooltip .tooltip-inner {
 /* css cho phần ĐIỂM ĐẾN HẤP DẪN
    created by tuanva 30/10/2020
 */
-.bravo_wrap .page-template-content .bravo-list-locations .title {
-    font-size: 36px;
-    font-family: AvertaBoldFont;
-	margin-bottom: 25px;
-}
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .sub-title {
 	color: #5e6d77;
 	font-size: 16px;
@@ -2954,7 +2949,8 @@ created by tuanva 30/10/2020 */
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations .list-item .destination-item:hover .effect {
-	opacity: 0;
+	opacity: 0.3;
+	transition: all 0.5s ease;
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations .list-item .destination-item:hover .title {
@@ -2965,7 +2961,7 @@ created by tuanva 30/10/2020 */
 	background: #6cbe46 !important;
 }
 
-.bravo_wrap .page-template-content .bravo-list-locations .list-item .destination-item:hover .desc a {
+.bravo_wrap .page-template-content .bravo-list-locations .list-item .destination-item:hover .desc a:first-child {
 	color: #6cbe46 !important;
 }
 
@@ -2993,6 +2989,7 @@ created by tuanva 30/10/2020 */
 	.bravo_wrap .page-template-content .bravo-list-locations.style_2 {
 		margin: 30px 0 0;
 	}
+
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations.style_2 .title {
@@ -3126,11 +3123,10 @@ created by tuanva 30/10/2020 */
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .title {
-	font-size: 28px;
-	font-weight: 500;
+	font-size: 36px;
 	margin-bottom: 5px;
 	text-align: center;
-	font-weight: bold;
+	font-family: AvertaBoldFont;
 }
 
 
@@ -3186,6 +3182,7 @@ created by tuanva 30/10/2020 */
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .list-item .destination-item .content .desc span {
 	color: #fff;
 	font-size: 14px;
+	text-decoration: none;
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .list-item .destination-item .content .desc a:before,
@@ -3232,7 +3229,7 @@ created by tuanva 30/10/2020 */
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .list-item .destination-item:hover .effect {
-	opacity: 0.2;
+	opacity: 0.8;
 }
 
 .bravo_wrap .page-template-content .bravo-list-locations.style_4 .list-item .destination-item:hover .content h4:after {
@@ -3927,6 +3924,9 @@ created by tuanva 30/10/2020 */
 		padding: 25px 15px;
 		height: 300px;
 	}
+	.bravo_wrap .page-template-content .bravo-offer {
+		margin: 380px 0 30px;
+	}
 }
 
 .bravo_wrap .page-template-content .bravo-offer .item .featured-text {
@@ -3992,8 +3992,8 @@ created by tuanva 30/10/2020 */
 }
 
 .bravo_wrap .page-template-content .bravo-offer .item a.btn-default:hover {
-	color: #6cbe46 !important;
-	background: #fff;
+	color: #ffffff !important;
+	background: #6cbe46;
 }
 
 @media (max-width: 1023px) {
@@ -4772,7 +4772,7 @@ created by tuanva 30/10/2020 */
 
 .bravo_wrap .page-template-content .bravo-list-news .caption .title {
     font-size: 18px;
-    font-family: AvertaBoldFont;
+    font-family: AvertaSemiboldFont;
 }
 
 .bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image:before{
@@ -4817,6 +4817,7 @@ created by tuanva 30/10/2020 */
 .container-fluid.event-organization {
     margin-bottom: 70px;
 }
+
 /* hết css cho phần TỔ CHỨC SỰ KIỆN */
 
 
@@ -5408,7 +5409,6 @@ created by tuanva 30/10/2020 */
     font-size: 36px;
     font-family: AvertaBoldFont;
 	text-align: center;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 /* phần chữ nhỏ */
@@ -6192,7 +6192,7 @@ ol {
 
 .bravo_wrap .bravo_topbar {
 	background: #f5f5f5;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -7226,5 +7226,21 @@ ol {
 	.bravo_wrap .page-template-content .bravo-list-news .item-news .caption .item-desc {
 		font-size: 16px;
 		font-family: AvertaLightl;
+	}
+}
+
+
+/* / Hiếu reponsive /
+/ Extra small devices (phones, 600px and down) / */
+/* / Extra large devices (large laptops and desktops, 1200px and up) / */
+@media only screen and (max-width: 1440px) {
+	.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image .title a {
+		font-size: 20px;
+	}
+	.bravo_wrap .page-template-content .bravo-list-news .item-news .thumb-image:hover .title {
+		top: 35%;
+	}
+	.bravo_wrap .page-template-content .bravo-list-news .item-news .caption .item-desc {
+		font-size: 14px;
 	}
 }
