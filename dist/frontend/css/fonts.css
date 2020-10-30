@@ -12,3 +12,22 @@
     font-family: AvertaThinFont;
     src: url(../fonts/Averta\ Thin.otf);
 }
+@font-face{
+	font-family: AvertaSemiboldFont;
+	src: url(../fonts/Averta\ Semibold.otf);
+}
+@font-face{
+	font-family: AvertaLightFont;
+	src: url(../fonts/Averta\ Light.otf);
+}
+
+
+
+@font-face {
+	font-family: AvertaSemibo;
+	src: url(../fonts/Averta\ Semibold.otf);
+}
+@font-face {
+	font-family: AvertaLightl;
+	src: url(../fonts/Averta\ Light.otf);
+}
