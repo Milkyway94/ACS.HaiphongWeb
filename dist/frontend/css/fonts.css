@@ -1,0 +1,14 @@
+@font-face {
+	font-family: AvertaFont;
+	src: url(../fonts/Averta.otf);
+}
+
+@font-face {
+	font-family: AvertaBoldFont;
+	src: url(../fonts/Averta\ Bold.otf);
+}
+
+@font-face {
+    font-family: AvertaThinFont;
+    src: url(../fonts/Averta\ Thin.otf);
+}

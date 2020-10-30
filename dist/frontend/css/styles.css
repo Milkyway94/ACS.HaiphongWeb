@@ -1,14 +1,7 @@
 @charset "UTF-8";
-@font-face {
-	font-family: AvertaFont;
-	src: url(../fonts/Averta.otf);
-}
+@import './fonts.css';
 
-@font-face {
-	font-family: AvertaBoldFont;
-	src: url(../fonts/Averta\ Bold.otf);
-}
-
+/* ANH EM TẠO FILE CSS CỦA MÌNH RỒI IMPORT VÀO ĐÂY CHỖ NÀY NHÉ ĐẶT TÊN FILE CSS THEO PHẦN AE LÀM NHÉ, TRÁNH BỊ TRÙNG */
 * {
 	font-family: AvertaFont;
 }
